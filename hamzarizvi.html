@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Build-A-Thon || Tezos</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header navbar">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#home" class="nav-logo">
+            <!-- <img src="./assets/img/favicon.ico" class="mylogo" alt="Z" -->
+            <img class="mylogo" src="./assets/img/logo.png" alt="logo" />
+          </a>
+        </div>
+        <!-- <div class="welcome-container">
+          <h1 class="Middle-Head">TEZOS</h1>
+        </div> -->
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link home active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link about">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- ===== NAV TOGGLE ===== -->
+        <div class="toggle-container">
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid section" id="home">
+        <div class="home-data">
+          <h2 class="home-title">
+            Hey! 👋, I Am<br />
+            <span class="home-title-color Baloo">Hamza Rizvi</span><br />
+            <!-- <span class="animate-charcter">DevOps Engineer </span> -->
+            <div class="console-container animate-charcter">
+              <span id="text"></span>
+              <!-- <div class='console-underscore' id='console'>&#95;</div> -->
+            </div>
+          </h2>
+
+          <a href="./resume.pdf" target="_blank" class="button">Resume</a>
+        </div>
+
+        <div class="home-social">
+          <a
+            href="https://www.linkedin.com/in/hamza69?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            class="home-social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/ansari_hamza69?igsh=Y291d3ZtZDlyZHg=="
+            target="_blank"
+            class="home-social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/ansarihamza69" target="_blank" class="home-social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home-img">
+          <img src="assets/img/Scrollimg.png" alt="IMG" class="myimage" />
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about-container bd-grid">
+          <div style="text-align: center">
+            <p class="about-text">
+              Hi, I'm Hamza, a web development and DevOps enthusiast currently
+              pursuing a Bachelor’s in Computer Applications at Jamia Hamdard.
+              As the Chairperson of Tezos Jamia Hamdard, I've led initiatives
+              focused on blockchain technology, organized events, and worked
+              closely with a passionate tech community. With a strong foundation
+              in Web Development, DevOps, and Linux, I have practical experience
+              working with tools like Docker, Jenkins, and GitHub Actions. My
+              journey has also involved participating in and winning hackathons,
+              interning at Delhi Police, and contributing to multiple tech
+              societies including GDSC and Hacked JH. I’m deeply interested in
+              empowering students and tech enthusiasts by sharing my knowledge
+              through tech blogs and hosting events, such as Git & GitHub
+              workshops. My goal is to continually learn, innovate, and
+              contribute to meaningful projects in the technology space. Feel
+              free to explore my portfolio to see my projects, accomplishments,
+              and the work I’m passionate about!
+            </p>
+            <br />
+            <p>
+              Drop a mail @ mohdhamza59432@gmail.com
+              <i
+                style="color: #4070f4; font-size: 1.2rem; cursor: pointer"
+                class="bx bx-copy"
+                id="copy"
+              ></i>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container bd-grid">
+          <div>
+            <h2 class="skills-subtitle">Front-end Skills</h2>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-html5 skills-icon"></i>
+                <span class="skills-name">HTML5</span>
+              </div>
+              <div class="skills-bar skills-html"></div>
+              <div>
+                <span class="skills-percentage">75%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-css3 skills-icon"></i>
+                <span class="skills-name">CSS3</span>
+              </div>
+              <div class="skills-bar skills-css"></div>
+              <div>
+                <span class="skills-percentage">70%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-javascript skills-icon"></i>
+                <span class="skills-name">JAVASCRIPT</span>
+              </div>
+              <div class="skills-bar skills-js"></div>
+              <div>
+                <span class="skills-percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/linux.png" alt="" />
+                <span class="skills-name">Linux</span>
+              </div>
+              <div class="skills-bar skills-react"></div>
+              <div>
+                <span class="skills-percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-java skills-icon"></i>
+                <span class="skills-name">Java</span>
+              </div>
+              <div class="skills-bar skills-redux"></div>
+              <div>
+                <span class="skills-percentage">90%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bx-infinite skills-icon"></i>
+                <span class="skills-name">DevOps</span>
+              </div>
+              <div class="skills-bar skills-mui"></div>
+              <div>
+                <span class="skills-percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-python skills-icon"></i>
+                <span class="skills-name">Pyhton</span>
+              </div>
+              <div class="skills-bar skills-ts"></div>
+              <div>
+                <span class="skills-percentage">70%</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 class="skills-subtitle">Back-end Skills</h2>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img
+                  class="skills-icon"
+                  src="./assets/img/express.png"
+                  alt=""
+                />
+                <span class="skills-name">Express.js</span>
+              </div>
+              <div class="skills-bar skills-express"></div>
+              <div>
+                <span class="skills-percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxs-data skills-icon"></i>
+                <span class="skills-name">DSA</span>
+              </div>
+              <div class="skills-bar skills-node"></div>
+              <div>
+                <span class="skills-percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/mysql.png" alt="" />
+                <span class="skills-name">My SQL</span>
+              </div>
+              <div class="skills-bar skills-sql"></div>
+              <div>
+                <span class="skills-percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img
+                  class="skills-icon"
+                  src="./assets/img/mongodb.png"
+                  alt=""
+                />
+                <span class="skills-name">MongoDB</span>
+              </div>
+              <div class="skills-bar skills-mongo"></div>
+              <div>
+                <span class="skills-percentage">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Projects =====-->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/img/project1.jpg" alt="asp.net" />
+            <p class="project-title">Netflix Clone</p>
+            <p class="project-subtitle">
+              Netflix 𝗙𝗿𝗼𝗻𝘁-𝗘𝗻𝗱 𝗖𝗹𝗼𝗻𝗲 𝗪𝗲𝗯𝘀𝗶𝘁𝗲! I'm thrilled to share my latest
+              web development project – a front-end clone of the popular Netflix
+              Online Video Streaming website! 👨‍💻 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄: I cloned the
+              original Netflix video streaming website using HTML and CSS,
+              focusing on creating a responsive design that mirrors the sleek,
+              modern interface of Netflix. The site includes many images and
+              videos that work perfectly in their original formats.
+
+              <br />
+              <br />HTML | CSS | JavaScript
+            </p>
+            <div class="project-btns">
+              <a
+                href=" https://lnkd.in/gAsNmiRC"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/posts/hamza69_webdevelopment-html-css-activity-7230921144512524288-ibs8?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                class="small-btn button"
+              >
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-img">
+            <img src="assets/img/project2.jpg" alt="Quiz" />
+            <p class="project-title">UltraEdit Clone</p>
+            <p class="project-subtitle">
+              UltraEdit Front-End Clone Website! I'm thrilled to share my latest
+              web development project – a front-end clone of the popular
+              UltraEdit software website! 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄: I have recreated the
+              UltraEdit Front-End Website using HTML and CSS, capturing the
+              essential design elements and functionality of the original site.
+              This project showcases my skills in web development, design, and
+              attention to detail. <br />
+
+              <br />HTML | CSS | GitHub | JavaScript |
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://lnkd.in/gmsiZkXv"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/posts/hamza69_webdevelopment-frontend-html-activity-7224180821841076224-EkVJ?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                class="small-btn button"
+              >
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-img">
+            <img src="assets/img/project3.jpg" alt="Student Management System" />
+            <p class="project-title">Book It Now</p>
+            <p class="project-subtitle">
+              The Student Management System is a comprehensive Python-based
+              application designed to streamline the management of student
+              records and related tasks within an educational institution. This
+              system provides an efficient platform for administrators,
+              teachers, and students to interact and manage
+              academic information.
+              <br />
+              <br />
+              HTML | CSS 
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/ansarihamza69/StudentManagementSystem"
+                target="_blank"
+                class="small-btn button"
+              >
+                Code<i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-img">
+            <img src="assets/img/project4.png" alt="tezos" />
+            <p class="project-title">Tezos Jamia Hamard</p>
+            <p class="project-subtitle">
+              Tezos Jamia Hamdard Official Web-Site 
+              <br />
+              <br />
+               Javascript | React
+            </p>
+            <div class="project-btns">
+              <a href="#" target="_blank" class="small-btn button">
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a href="https://tezosjamiahamdard.github.io/TezosWebsite/" target="_blank" class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT =====-->
+      <!-- <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-container bd-grid">
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Name" class="contact-input" />
+            <input type="mail" placeholder="Email" class="contact-input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact-input"
+            ></textarea>
+            <input
+              type="button"
+              value="Contact"
+              class="contact-button button"
+            />
+          </form>
+        </div>
+      </section> -->
+    </main>
+
+    <!--===== FOOTER + CONTACT=====-->
+    <footer class="footer section" id="contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="footer-title">Hamza</p>
+      <div class="footer-social">
+        <a
+          href="https://www.linkedin.com/in/hamza69?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-linkedin">
+            <br />
+            LinkedIn</i
+          ></a
+        >
+        <a
+          href="https://x.com/ansari_hamza69?t=cghrEi-V_xNfkkofTN2UIw&s=09"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-twitter">
+            <br />
+            Twitter</i
+          ></a
+        >
+        <a
+          href="https://www.instagram.com/ansari_hamza69?igsh=Y291d3ZtZDlyZHg=="
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-instagram">
+            <br />
+            Instagram</i
+          ></a
+        >
+        <a
+          href="mailto:mohdhamza59432@gmail.com"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bx-mail-send">
+            <br />
+            E-mail</i
+          ></a
+        >
+        <a href="tel:+91 98102 28781" target="_blank" class="footer-icon"
+          ><i class="bx bx-phone">
+            <br />
+            Phone</i
+          ></a
+        >
+      </div>
+      <p>&#169; 2024 copyright all right reserved</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
